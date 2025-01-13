@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding:30px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+main{
+    background-color: #eeeeee;
+    border-radius: 5px;
+    text-align: center;
+    padding:50px 0;
+}
+
+#title-div{
+    padding:0 30px;
+    margin-bottom: 20px;
+}
+
+#title-div #title{
+    margin-bottom:20px;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#img-div{
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 18px;
+}
+
+img{
+    display: block;
+}
+
+#image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption{
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#tribute-info{
+    margin-top: 60px;
+    font-size: 16px;
+    padding:35px 0;
+    width:40%;
+    min-width: 450px;
+    margin:0 auto;
+}
+
+#tribute-info h3{
+    margin-bottom:30px;
+}
+
+#tribute-info ul{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+
+#tribute-info ul li{
+    padding: 10px;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+}
+
+#tribute-info ul li span{
+    font-weight: bold;
+}
+
+
+#tribute-info p{
+    text-align: left;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+    margin-top: 45px;
+}
+
+#main h3{
+    margin: 20px 20px 0 20px;
+}
+
+#tribute-link{
+    color:#477ca7 ;
+}
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 640px){
+    #tribute-info{
+       min-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 475px){
+    #tribute-info{
+        min-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    #tribute-info{
+        min-width: 250px;
+    }
+}
